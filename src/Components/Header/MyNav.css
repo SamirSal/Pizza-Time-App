@@ -1,0 +1,14 @@
+.nav1 {
+  margin-top: 20px;
+}
+.nav1 ul li {
+  list-style: none;
+}
+.nav1 ul li a {
+  margin: 20px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: italic;
+}

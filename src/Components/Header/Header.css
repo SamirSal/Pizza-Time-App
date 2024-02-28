@@ -1,0 +1,19 @@
+.Hed {
+  height: 100px;
+  background-color: #d1411e;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.HedCol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.HedCol i {
+  margin-top: 20px;
+  font-size: 32px;
+  text-align: right;
+}
