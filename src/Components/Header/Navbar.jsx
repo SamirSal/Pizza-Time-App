@@ -1,5 +1,5 @@
-import "./MyNav.css";
-function MyNav() {
+import "./Navbar.css";
+function Navbar() {
   const links = [
     { url: "/home", title: "Homepage" },
     { url: "/about", title: "Product" },
@@ -15,16 +15,9 @@ function MyNav() {
         <li>
           {links.map((link, i) => {
             return (
-              <>
-              if (link.title === 'Img') {
-                <a key={i} href=''>
-                {link.title}
-              </a>
-              }
               <a key={i} href={link.url}>
                 {link.title}
               </a>
-              </>
             );
           })}
         </li>
@@ -33,4 +26,4 @@ function MyNav() {
   );
 }
 
-export default MyNav;
+export default Navbar;

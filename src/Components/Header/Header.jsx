@@ -1,8 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../../../public/fontawesome/css/all.min.css";
-
-import MyNav from "./MyNav";
+import Navbar from "./Navbar.jsx";
 import "./Header.css";
 
 function Header() {
@@ -24,7 +23,7 @@ function Header() {
         </div>
       </Col>
       <Col lg={6} md={6} sm={3}>
-        <MyNav />
+        <Navbar />
       </Col>
       <Col
         lg={3}
